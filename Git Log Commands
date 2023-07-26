@@ -1,0 +1,6 @@
+# create new branch
+git -c core.quotepath=false -c log.showSignature=false checkout -b test.branch HEAD --
+
+
+#project update merge is like a
+#git fetch and then git merge, or git pull --no-rebase.
